@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="plano">
+    
+
+
+
+
+<static>true</static>
+    <link name="pared">
+ <pose>8.934026 32.769393 0.14 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/pared.STL</uri>
+<pose>0 0 0 0 0 0</pose>
+          </mesh>
+           <surface>
+            <friction>
+              <ode>
+                <mu>1.2</mu>
+                <mu2>1.2</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/pared.dae</uri>
+	    <pose>0 0 0 0 0 0</pose>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+<static>true</static>
+    <link name="pared_2">
+ <pose>8.864026 32.735192 0.14 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/pared.STL</uri>
+<pose>0 0 0 0 0 0</pose>
+          </mesh>
+           <surface>
+            <friction>
+              <ode>
+                <mu>1.2</mu>
+                <mu2>1.2</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/pared.dae</uri>
+	    <pose>0 0 0 0 0 0</pose>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+<static>true</static>
+    <link name="mural">
+ <pose>8.934026 32.769393 0.164131 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/mural.STL</uri>
+<pose>0 0 0 0 0 0</pose>
+          </mesh>
+           <surface>
+            <friction>
+              <ode>
+                <mu>1.2</mu>
+                <mu2>1.2</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/mural.dae</uri>
+	    <pose>0 0 0 0 0 0</pose>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+<static>true</static>
+    <link name="plano_piso">
+ <pose>-14.632770 -0.902217 0.118 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/plano_piso.STL</uri>
+<pose>0 0 0 0 0 0</pose>
+          </mesh>
+           <surface>
+            <friction>
+              <ode>
+                <mu>1.2</mu>
+                <mu2>1.2</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://plano_posgrado/meshes/plano_piso.dae</uri>
+	    <pose>0 0 0 0 0 0</pose>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+
+  </model>
+</sdf>

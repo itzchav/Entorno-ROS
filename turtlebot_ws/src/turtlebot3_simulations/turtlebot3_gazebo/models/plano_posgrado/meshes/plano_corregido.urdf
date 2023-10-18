@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="plano_corregido">
+  <link
+    name="plano">
+    <inertial>
+      <origin
+        xyz="-1.15668732090984 -7.39255720596417 0.879145597975162"
+        rpy="0 0 0" />
+      <mass
+        value="205459.879202415" />
+      <inertia
+        ixx="12689112.8796767"
+        ixy="-905708.237366828"
+        ixz="11355.3474325137"
+        iyy="8288298.88074474"
+        iyz="4896.23043552904"
+        izz="20630318.9707263" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://plano_corregido/meshes/plano.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://plano_corregido/meshes/plano.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
